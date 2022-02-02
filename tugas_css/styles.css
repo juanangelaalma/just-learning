@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Billabong";
+  src: url('assets/FontsFree-Net-Billabong.woff');
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+.container .login {
+  width: 100%;
+  display: flex;
+}
+
+.container .login .login-cont {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.container .login .login-image {
+  display: none;
+}
+
+.container .login .login-form {
+  width: 100%;
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container .login .login-form form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .login .login-form form .brand-name {
+  font-family: "Billabong";
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.container .login .login-form form input {
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  outline: none;
+  border: 1px solid #DBDBDB;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+.container .login .login-form form .brand-name, input, .btn-login {
+  width: 100%;
+  height: 2rem;
+}
+
+.container .login .login-form form .btn-login {
+  background-color: #0095F6;
+  border: none;
+  border-radius: 7px;
+  color: #FFF;
+}
+
+.container .login .login-form .or-line {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.container .login .login-form .or-line .line-left, .line-right {
+  display: flex;
+  width: 40%;
+}
+
+.container .login .login-form .or-line span {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.container .login .login-form .or-line hr {
+  width: 100%;
+}
+
+.container .login .login-form .another-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.container .login .login-form .another-login .facebook-logo {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.container .login .login-form .forgot-password {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.container .login .login-form .forgot-password a {
+  text-decoration: none;
+}
+
+.container .login .register-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.container .login .get-app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .login .get-app .wrap {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container .login .get-app .wrap img {
+  width: 40%;
+}
+
+.container .login .get-app .wrap img:first-of-type {
+  width: 40%;
+  margin-right: 1rem;
+}
+
+.footer {
+  width: 100%;
+}
+.footer .wrap .footer-links {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer .wrap .footer-links .footer-link-item {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.footer .wrap .the-end {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+}
+
+.footer .the-end {
+  display: flex;
+}
+
+.footer .the-end .language {
+  margin-right: 10px;
+}
+
+
