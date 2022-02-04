@@ -274,10 +274,11 @@ body {
   }
 
   .container .login .login-image .phone-image:first-of-type img:nth-child(2) {
-    width: 60%;
+    width: 61.3%;
     margin: auto;
-    margin-top: 18%;
+    margin-top: 17%;
     z-index: 3;
+    margin-left: 19%;
   }
 
   .container .login .login-image .phone-image:nth-child(2) img:first-of-type {
