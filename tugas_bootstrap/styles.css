@@ -42,6 +42,20 @@
   box-shadow: none;
 }
 
+.navbar .nav-item {
+  margin-right: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #575757;
+  font-weight: 800;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #2e94fa;
+}
+
 .show .navbar-nav {
   position: absolute;
   top: 0;
@@ -53,6 +67,23 @@
   border-radius: 10px;
   border: 1px solid rgb(218, 218, 218);
   margin-top: 0.5rem;
+}
+
+.text-blue {
+  color: #4DB7FE;
+}
+
+.btn-register {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  background-color: #4DB7FE;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.btn-register:hover {
+  color: #FFFFFF;
 }
 
 .carousel-video .box {
@@ -130,6 +161,23 @@
   }
  }
 
+ .content-title {
+   font-size: 1.2rem;
+   font-weight: 700;
+ }
+
+ .content-desc {
+   color: #8F8CB8;
+   font-weight: 500;
+   word-spacing: 0;
+ }
+
+ .time-line-icon {
+   width: 5rem;
+   height: 5rem;
+   background: url("https://eduwork.id/images/clouds.png") no-repeat center;
+ }
+
 @media (min-width: 768px) { 
   .brand-logo {
     width: 15%;
@@ -164,10 +212,15 @@
     width: 3rem;
     height: 3rem;
     padding: 0;
-    background-color: #04436D;
-    opacity: 1;
-    border-radius: 50%;
-    outline:rgba(255, 255, 255, 0.5) solid 5px;
+  }
+
+  .time-line .container.px-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .time-line .col-12 {
+    padding-right: 2rem;
   }
  }
 
