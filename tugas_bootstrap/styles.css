@@ -80,6 +80,8 @@
   color: #FFFFFF;
   font-size: 0.7rem;
   font-weight: 800;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .btn-register:hover {
@@ -221,6 +223,11 @@
 
   .time-line .col-12 {
     padding-right: 2rem;
+  }
+
+  .btn-register {
+    margin-top: 0;
+    width: auto;
   }
  }
 
