@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Feb 2022 pada 13.29
+-- Waktu pembuatan: 15 Feb 2022 pada 13.38
 -- Versi server: 10.4.19-MariaDB
 -- Versi PHP: 8.0.7
 
@@ -35,8 +35,7 @@ CREATE TABLE `obat` (
   `golongan` varchar(50) NOT NULL,
   `dosis` text NOT NULL,
   `penyajian` text NOT NULL,
-  `tgl_kadaluarsa` date NOT NULL,
-  `id_satuan` int(11) NOT NULL
+  `tgl_kadaluarsa` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
